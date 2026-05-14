@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-snow text-deep-blue font-inter;
+  }
+
+  ::selection {
+    @apply bg-health-green/20 text-health-green;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply border bg-white/80 backdrop-blur-md border-white/20 shadow-glass;
+  }
+
+  .gradient-text {
+    @apply text-transparent bg-gradient-to-r from-health-green to-blue-500 bg-clip-text;
+  }
+
+  .section-padding {
+    @apply py-32;
+  }
+
+  .container-custom {
+    @apply container px-4 mx-auto;
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease-out;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1FA97A;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #123D6A;
+}
+
+/* Framer Motion base classes */
+.motion-div {
+  will-change: transform, opacity;
+}

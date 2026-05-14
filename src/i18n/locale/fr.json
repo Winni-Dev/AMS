@@ -1,0 +1,939 @@
+{
+  "home": {
+    "meta": {
+      "title": "AMS - Africa Med Supply | Connecter l'Europe, sécuriser la santé en Afrique",
+      "description": "AMS accompagne les laboratoires européens dans le déploiement structuré de leurs produits pharmaceutiques en Côte d'Ivoire et en Afrique de l'Ouest."
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "caseStudies": "Études de cas",
+    "equipment": "Équipement",
+    "news": "Actualités",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Logistique Pharmaceutique Premium",
+    "title": "Connecter l'Europe, Sécuriser la Santé en Afrique",
+    "subtitle": "AMS accompagne les laboratoires européens dans le déploiement structuré de leurs produits pharmaceutiques en Côte d'Ivoire et en Afrique de l'Ouest.",
+    "cta1": "Devenir Partenaire",
+    "cta2": "Télécharger le dossier Partenariat"
+  },
+  "stats": {
+    "partners": "Laboratoires Partenaires",
+    "experience": "Années d'Expérience",
+    "countries": "Pays Africains"
+  },
+  "whyAms": {
+    "badge": "Nos Avantages",
+    "title": "Pourquoi AMS ?",
+    "subtitle": "Nos atouts clés pour votre déploiement pharmaceutique en Afrique",
+    "cards": {
+      "regulatory": {
+        "title": "Expertise Réglementaire",
+        "description": "Maîtrise complète des réglementations pharmaceutiques et accès accéléré au marché"
+      },
+      "distribution": {
+        "title": "Réseau de Distribution",
+        "description": "Réseau stratégique couvrant pharmacies, hôpitaux et centres de santé"
+      },
+      "logistics": {
+        "title": "Logistique Médicale",
+        "description": "Chaîne du froid et infrastructure logistique pharmaceutique certifiée"
+      },
+      "deployment": {
+        "title": "Déploiement Commercial",
+        "description": "Stratégie de lancement structurée et suivie sur le marché"
+      }
+    }
+  },
+  "partnership": {
+    "badge": "Collaboration Stratégique",
+    "title": "Modèle de Partenariat",
+    "subtitle": "Un pont seamless entre les laboratoires européens et le marché africain",
+    "ams": {
+      "title": "AMS",
+      "items": [
+        "Réglementaire & Conformité",
+        "Distribution & Logistique",
+        "Déploiement Terrain",
+        "Intelligence Marché",
+        "Représentation Locale"
+      ]
+    },
+    "laboratory": {
+      "title": "Laboratoire Européen",
+      "items": [
+        "Portfolio Produits",
+        "Support Scientifique",
+        "Assurance Qualité",
+        "Fabrication",
+        "Innovation & R&D"
+      ]
+    }
+  },
+  "products": {
+    "badge": "Notre Expertise",
+    "title": "Produits Ciblés",
+    "subtitle": "Catégories pharmaceutiques spécialisées pour les besoins de santé africains",
+    "categories": {
+      "antibiotics": "Antibiotiques",
+      "antimalarial": "Antipaludiques",
+      "cardiology": "Cardiologie",
+      "diabetes": "Diabète",
+      "pediatrics": "Pédiatrie",
+      "devices": "Dispositifs Médicaux"
+    }
+  },
+  "expansion": {
+    "badge": "Présence Stratégique",
+    "title": "Expansion en Afrique",
+    "subtitle": "Présence stratégique en Afrique de l'Ouest",
+    "countries": {
+      "ivoryCoast": "Côte d'Ivoire",
+      "senegal": "Sénégal",
+      "ghana": "Ghana",
+      "togo": "Togo",
+      "benin": "Bénin"
+    }
+  },
+  "cta": {
+    "title": "Prêt à vous développer sur le marché pharmaceutique africain ?",
+    "subtitle": "Rejoignez les laboratoires européens leaders qui font déjà confiance à AMS pour leur déploiement africain.",
+    "button": "Contacter AMS"
+  },
+  "footer": {
+    "slogan": "Connecter l'Europe, Sécuriser la Santé en Afrique",
+    "quickLinks": "Liens Rapides",
+    "services": "Services",
+    "serviceList": [
+      "Affaires Réglementaires",
+      "Réseau de Distribution",
+      "Logistique Médicale",
+      "Déploiement Commercial",
+      "Gestion de la Chaîne d'Approvisionnement",
+      "Solutions Chaîne du Froid"
+    ],
+    "contact": "Contact",
+    "followUs": "Suivez-nous",
+    "copyright": "© 2024 AMS - Africa Med Supply. Tous droits réservés.",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation",
+    "cookiePolicy": "Politique des Cookies",
+    "address": "Plateau, Abidjan",
+    "region": "Afrique de l'Ouest",
+    "email": "contact@ams-africa.com",
+    "phone": "+225 XX XX XX XX",
+    "rightsReserved": "Tous droits réservés."
+  },
+  "about": {
+    "hero": {
+      "badge": "À propos",
+      "title": "Relier les Continents, Livrer la Santé",
+      "description": "AMS - Africa Med Supply est une entreprise de logistique et de distribution pharmaceutique de premier plan, dédiée à connecter les laboratoires européens avec les marchés de la santé en croissance de l'Afrique de l'Ouest."
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Faciliter l'accès transparent aux produits pharmaceutiques de qualité pour les populations africaines en comblant le fossé entre les fabricants européens et les systèmes de santé d'Afrique de l'Ouest grâce à l'excellence en logistique, conformité réglementaire et intelligence de marché."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "description": "Devenir le pont logistique pharmaceutique leader entre l'Europe et l'Afrique, permettant l'accès universel aux médicaments essentiels et aux dispositifs médicaux tout en maintenant les plus hauts standards de qualité et de fiabilité."
+    },
+    "values": {
+      "badge": "Ce que nous défendons",
+      "title": "Nos Valeurs Fondamentales",
+      "transparency": {
+        "title": "Transparence",
+        "description": "Communication claire et ouverte avec tous nos partenaires."
+      },
+      "security": {
+        "title": "Sécurité",
+        "description": "Assurer la sécurité et l'intégrité des produits pharmaceutiques."
+      },
+      "reliability": {
+        "title": "Fiabilité",
+        "description": "Livraison de services cohérente et fiable à travers l'Afrique."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Exploiter des solutions de pointe pour la logistique de santé."
+      }
+    },
+    "meta": {
+      "title": "À propos d'AMS | Africa Med Supply - Mission, vision et direction",
+      "description": "Découvrez la mission, la vision, les valeurs et l'équipe dirigeante d'AMS au service de l'excellence pharmaceutique en Afrique de l'Ouest."
+    },
+    "leadership": {
+      "badge": "Direction",
+      "title": "Le mot du fondateur"
+    },
+    "md": {
+      "title": "Le mot du directeur général"
+    },
+    "purpose": {
+      "badge": "Notre raison d'être",
+      "title": "Mission et vision"
+    },
+    "people": {
+      "pdgRole": "PDG & Fondateur",
+      "dgRole": "Directeur général",
+      "pdgImageAlt": "Hervé Bah Tiehi - PDG & fondateur, AMS",
+      "dgImageAlt": "KATO REMY GBESSIA - Directeur général, AMS"
+    },
+    "founder": {
+      "sections": [
+        {
+          "title": "Un engagement pour l'Afrique, une vision pour la santé",
+          "paragraphs": [
+            "Mon parcours a toujours été guidé par une conviction profonde : le renouvellement de l'Afrique passera par la capacité de ses leaders à transformer les défis structurels en opportunités de développement durable.",
+            "En tant que président fondateur de l'association Jeunes Leaders d'Afrique, j'ai consacré ma vie publique à porter la voix d'une nouvelle génération. Une génération qui n'attend plus le changement, mais qui le provoque pour bâtir un continent souverain, moderne et prospère. Cette passion pour le renouveau africain est l'essence même de mon engagement entrepreneurial."
+          ]
+        },
+        {
+          "title": "Pourquoi avoir créé AMS – Africa Med Supply ?",
+          "paragraphs": [
+            "L'accès à une santé de qualité est le socle de toute émergence. Pourtant, le marché pharmaceutique en Afrique de l'Ouest reste confronté à des défis de structuration et de sécurité.",
+            "J'ai créé AMS avec une mission claire : sécuriser la chaîne de santé en devenant le relais stratégique incontournable entre l'Europe et l'Afrique.",
+            "Mon ambition est de bâtir un pont de confiance. En associant l'excellence des laboratoires européens à notre maîtrise rigoureuse du terrain ivoirien, nous garantissons que chaque médicament, chaque dispositif, arrive à destination avec une traçabilité et une efficacité totale."
+          ]
+        },
+        {
+          "title": "Une ambition au-delà du commerce",
+          "paragraphs": [
+            "Pour moi, Africa Med Supply est bien plus qu'une société de distribution. C'est une réponse concrète au besoin de souveraineté sanitaire. C'est la démonstration qu'une expertise locale forte, alliée à des partenariats internationaux transparents, peut transformer durablement le quotidien de nos populations.",
+            "Nous ne nous contentons pas de distribuer des produits ; nous bâtissons un écosystème où la santé devient le premier moteur du développement africain."
+          ]
+        }
+      ]
+    },
+    "director": {
+      "sections": [
+        {
+          "title": "Une vision moderne au service de la santé en Afrique",
+          "paragraphs": [
+            "Mon parcours professionnel a toujours été guidé par une conviction forte : le développement de l'Afrique repose sur la capacité de ses entreprises à allier innovation, rigueur et excellence opérationnelle.",
+            "À travers mes expériences dans les domaines de la gestion, des systèmes d'information et du développement stratégique, j'ai acquis la certitude qu'une organisation performante doit avant tout être fondée sur la confiance, la transparence et l'efficacité.",
+            "C'est cette vision qui guide aujourd'hui mon engagement au sein d'Africa Med Supply."
+          ]
+        },
+        {
+          "title": "Pourquoi AMS – Africa Med Supply ?",
+          "paragraphs": [
+            "Le secteur de la santé constitue un enjeu majeur pour l'avenir de notre continent. Pourtant, les défis liés à l'approvisionnement, à la traçabilité et à la qualité des produits médicaux demeurent importants en Afrique de l'Ouest.",
+            "En rejoignant Africa Med Supply en qualité de directeur général, j'ai choisi de participer à la construction d'une entreprise capable d'apporter des solutions fiables, modernes et durables aux acteurs du secteur sanitaire.",
+            "Notre ambition est claire : garantir un accès sécurisé à des médicaments et dispositifs médicaux répondant aux standards internationaux les plus exigeants."
+          ]
+        },
+        {
+          "title": "Une entreprise tournée vers l'excellence",
+          "paragraphs": [
+            "Africa Med Supply est bien plus qu'une société de distribution. Nous construisons une organisation structurée, innovante et résolument tournée vers l'avenir.",
+            "En associant expertise locale, technologies modernes et partenariats stratégiques solides, nous contribuons au renforcement de la chaîne d'approvisionnement médicale en Afrique.",
+            "Chaque action menée par AMS répond à une priorité essentielle : faire de la santé un véritable moteur de développement économique et social pour notre continent."
+          ]
+        }
+      ]
+    }
+  },
+  "services": {
+    "metaTitle": "Services | AMS - Réglementation, distribution, logistique et déploiement",
+    "metaDescription": "Services pharmaceutiques complets : affaires réglementaires, réseau de distribution, logistique médicale et déploiement commercial en Afrique de l'Ouest.",
+    "heroBadge": "Solutions complètes",
+    "heroTitle": "Nos services",
+    "heroSubtitle": "Des services pharmaceutiques de bout en bout pour relier les laboratoires européens aux marchés de santé africains, avec excellence en réglementation, distribution, logistique et déploiement commercial.",
+    "learnMore": "En savoir plus",
+    "statSuccess": "Taux de réussite",
+    "extendedBadge": "Capacités étendues",
+    "extendedTitle": "Services complémentaires",
+    "processBadge": "Notre méthode",
+    "processTitle": "Notre processus",
+    "processSubtitle": "Une approche structurée du déploiement pharmaceutique en Afrique",
+    "ctaFinalTitle": "Prêt à lancer votre parcours en Afrique ?",
+    "ctaFinalSubtitle": "Discutons de la manière dont nos services peuvent accélérer votre présence pharmaceutique en Afrique de l'Ouest.",
+    "ctaFinalButton": "Planifier une consultation",
+    "additional": [
+      {
+        "title": "Reporting et suivi",
+        "description": "Tableaux de bord analytiques pour une visibilité en temps réel sur vos opérations africaines.",
+        "features": ["Analytique temps réel", "Suivi des KPI", "Rapports mensuels", "Intelligence marché"]
+      },
+      {
+        "title": "Gestion de la chaîne d'approvisionnement",
+        "description": "Optimisation de bout en bout pour un flux produit et une gestion des stocks efficaces.",
+        "features": ["Planification de la demande", "Approvisionnement", "Gestion d'entrepôt", "Planification distribution"]
+      }
+    ],
+    "processSteps": [
+      { "step": "01", "title": "Évaluation", "description": "Analyse de marché et évaluation des opportunités" },
+      { "step": "02", "title": "Stratégie", "description": "Parcours réglementaire et plan go-to-market" },
+      { "step": "03", "title": "Exécution", "description": "Mise en place distribution et déploiement des équipes" },
+      { "step": "04", "title": "Montée en charge", "description": "Optimisation des performances et expansion" }
+    ],
+    "regulatory": {
+      "title": "Affaires Réglementaires",
+      "subtitle": "Conformité Réglementaire & Accès au Marché",
+      "description": "Maîtrise complète des réglementations pharmaceutiques en Afrique de l'Ouest. Nous gérons l'ensemble du processus d'enregistrement, assurant que vos produits répondent à toutes les exigences locales pour une entrée rapide sur le marché.",
+      "features": [
+        "Enregistrement de Produits & Gestion des Dossiers",
+        "Développement de Stratégie Réglementaire",
+        "Surveillance & Mises à Jour de Conformité",
+        "Liaison avec les Autorités Pharmaceutiques",
+        "Documentation d'Import/Export",
+        "Protocoles d'Assurance Qualité"
+      ]
+    },
+    "distribution": {
+      "title": "Réseau de Distribution",
+      "subtitle": "Couverture Réseau Stratégique",
+      "description": "Réseau de distribution stratégique couvrant pharmacies, hôpitaux et centres de santé à travers l'Afrique de l'Ouest. Notre infrastructure logistique assure une livraison ponctuelle et des conditions de stockage appropriées.",
+      "features": [
+        "Réseau National de Pharmacies",
+        "Partenariats Hôpitaux & Cliniques",
+        "Distribution Chaîne du Froid",
+        "Systèmes de Gestion d'Inventaire",
+        "Suivi en Temps Réel",
+        "Contrôles de Qualité"
+      ]
+    },
+    "logistics": {
+      "title": "Logistique Médicale",
+      "subtitle": "Logistique Pharmaceutique Spécialisée",
+      "description": "Solutions logistiques avancées spécifiquement conçues pour les produits pharmaceutiques. Notre infrastructure certifiée maintient l'intégrité des produits de l'entrepôt au patient.",
+      "features": [
+        "Stockage Température Contrôlée",
+        "Installations Certifiées GDP",
+        "Systèmes d'Inventaire Automatisés",
+        "Services de Livraison Express",
+        "Chaîne d'Approvisionnement d'Urgence",
+        "Surveillance 24/7"
+      ]
+    },
+    "consulting": {
+      "title": "Intelligence de Marché",
+      "subtitle": "Perspectives Stratégiques du Marché",
+      "description": "Analyse complète du marché et conseil stratégique pour aider les laboratoires européens à comprendre et pénétrer efficacement les marchés d'Afrique de l'Ouest.",
+      "features": [
+        "Recherche & Analyse de Marché",
+        "Intelligence Concurrentielle",
+        "Développement de Stratégie de Prix",
+        "Feuille de Route Réglementaire",
+        "Identification de Partenariats",
+        "Évaluation des Risques"
+      ]
+    },
+    "deployment": {
+      "title": "Déploiement de Force Terrain",
+      "subtitle": "Gestion de Territoire & Ventes",
+      "description": "Déploiement professionnel de force terrain pour assurer une promotion efficace des produits, l'éducation médicale et la construction de relations avec les professionnels de santé.",
+      "features": [
+        "Équipes de Représentants Médicaux",
+        "Programmes de Formation Produits",
+        "Gestion des Relations KOL",
+        "Optimisation des Territoires de Vente",
+        "Analyses de Performance",
+        "Formation en Conformité"
+      ]
+    },
+    "support": {
+      "title": "Support Technique",
+      "subtitle": "Support Partenariat Continu",
+      "description": "Support technique et opérationnel continu tout au long de votre présence sur le marché africain. Nous fournissons l'expertise nécessaire au succès à long terme.",
+      "features": [
+        "Maintenance Réglementaire",
+        "Support d'Expansion de Marché",
+        "Rapports de Performance",
+        "Gestion de Crise",
+        "Assurance Qualité",
+        "Planification Stratégique"
+      ]
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Contactez-nous",
+      "title": "Construisons un Partenariat",
+      "description": "Planifiez une réunion stratégique avec notre équipe pour discuter de votre expansion pharmaceutique en Afrique."
+    },
+    "form": {
+      "name": "Nom Complet",
+      "company": "Entreprise",
+      "country": "Pays",
+      "email": "Adresse Email",
+      "message": "Message",
+      "submit": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès ! Nous vous répondrons bientôt.",
+      "selectCountry": "Sélectionnez un pays",
+      "placeholders": {
+        "name": "Jean Dupont",
+        "company": "Votre entreprise",
+        "email": "jean@entreprise.com",
+        "message": "Parlez-nous de votre projet et de vos besoins..."
+      }
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "Email",
+      "hours": "Heures d'Ouverture",
+      "hoursDetail": "Lundi au vendredi : 8h00 - 18h00\nSamedi : 9h00 - 13h00"
+    },
+    "formIntro": "Remplissez le formulaire ci-dessous et notre équipe vous répondra sous 24 heures."
+  },
+  "caseStudies": {
+    "badge": "Histoires de réussite",
+    "title": "Études de cas",
+    "subtitle": "Des réussites sur les marchés africains",
+    "meta": {
+      "title": "Études de cas | AMS - Déploiements pharmaceutiques réussis",
+      "description": "Découvrez les études de cas d'AMS en Afrique de l'Ouest : réglementation, distribution et logistique."
+    },
+    "filter": {
+      "all": "Toutes les études",
+      "pharmaceutical": "Pharmaceutique",
+      "medical": "Dispositifs médicaux",
+      "logistics": "Logistique"
+    },
+    "hero": {
+      "badge": "Résultats prouvés",
+      "description": "Découvrez comment AMS a déployé avec succès des produits pharmaceutiques en Afrique de l'Ouest, avec des résultats mesurables pour les laboratoires européens."
+    },
+    "stats": [
+      {
+        "value": "50",
+        "suffix": "+",
+        "label": "Déploiements réussis"
+      },
+      {
+        "value": "99.9",
+        "suffix": "%",
+        "label": "Taux de réussite"
+      },
+      {
+        "value": "15",
+        "suffix": "+",
+        "label": "Années d'expérience"
+      },
+      {
+        "value": "5",
+        "suffix": "",
+        "label": "Pays"
+      }
+    ],
+    "labels": {
+      "client": "Client :",
+      "challenge": "Défi",
+      "solution": "Solution",
+      "projectTimeline": "Calendrier du projet",
+      "discussProject": "Discuter d’un projet similaire",
+      "ongoing": "En cours"
+    },
+    "cases": [
+      {
+        "id": "antimalarial-deployment",
+        "title": "Déploiement de produits antipaludiques",
+        "client": "Grand laboratoire pharmaceutique européen",
+        "challenge": "Déployer un nouveau traitement antipaludique en Côte d’Ivoire avec une conformité réglementaire complète et une pénétration rapide du marché.",
+        "solution": "Mise en place d’un parcours intégré de la réglementation à la distribution, enregistrement du produit en un temps record et réseau de distribution national.",
+        "category": "Pharmaceutique",
+        "results": [
+          {
+            "label": "Temps de mise sur le marché",
+            "value": "6",
+            "suffix": " mois",
+            "isNumeric": true
+          },
+          {
+            "label": "Couverture",
+            "value": "85",
+            "suffix": "%",
+            "isNumeric": true
+          },
+          {
+            "label": "Patients touchés",
+            "value": "500",
+            "suffix": "k+",
+            "isNumeric": true
+          },
+          {
+            "label": "Taux de croissance",
+            "value": "+240",
+            "suffix": "%",
+            "isNumeric": false
+          }
+        ],
+        "timeline": [
+          {
+            "phase": "Approbation réglementaire",
+            "duration": "2 mois",
+            "status": "completed"
+          },
+          {
+            "phase": "Mise en place distribution",
+            "duration": "1,5 mois",
+            "status": "completed"
+          },
+          {
+            "phase": "Lancement commercial",
+            "duration": "1 mois",
+            "status": "completed"
+          },
+          {
+            "phase": "Montée en charge & optimisation",
+            "duration": "En cours",
+            "status": "active"
+          }
+        ]
+      },
+      {
+        "id": "injectable-distribution",
+        "title": "Distribution nationale de produits injectables",
+        "client": "Biotech européenne",
+        "challenge": "Mettre en place une chaîne du froid pour des produits injectables sensibles à la température dans plusieurs régions d’Afrique de l’Ouest.",
+        "solution": "Infrastructure certifiée chaîne du froid avec suivi des températures en temps réel et capacités de livraison du dernier kilomètre.",
+        "category": "Logistique",
+        "results": [
+          {
+            "label": "Conformité température",
+            "value": "99.9",
+            "suffix": "%",
+            "isNumeric": true
+          },
+          {
+            "label": "Points de livraison",
+            "value": "200",
+            "suffix": "+",
+            "isNumeric": true
+          },
+          {
+            "label": "Régions couvertes",
+            "value": "12",
+            "suffix": "",
+            "isNumeric": true
+          },
+          {
+            "label": "Intégrité produit",
+            "value": "100",
+            "suffix": "%",
+            "isNumeric": true
+          }
+        ],
+        "timeline": [
+          {
+            "phase": "Mise en place infrastructure",
+            "duration": "3 mois",
+            "status": "completed"
+          },
+          {
+            "phase": "Formation des équipes",
+            "duration": "1 mois",
+            "status": "completed"
+          },
+          {
+            "phase": "Lancement pilote",
+            "duration": "2 mois",
+            "status": "completed"
+          },
+          {
+            "phase": "Déploiement complet",
+            "duration": "3 mois",
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "id": "medical-devices-supply-chain",
+        "title": "Chaîne d’approvisionnement dispositifs médicaux",
+        "client": "Fabricant international de dispositifs médicaux",
+        "challenge": "Créer une chaîne d’approvisionnement efficace pour des dispositifs médicaux avec exigences d’importation complexes et besoins hospitaliers.",
+        "solution": "Solution complète : dédouanement, entreposage et livraison directe aux hôpitaux.",
+        "category": "Dispositifs médicaux",
+        "results": [
+          {
+            "label": "Réduction des coûts",
+            "value": "-30",
+            "suffix": "%",
+            "isNumeric": false
+          },
+          {
+            "label": "Hôpitaux desservis",
+            "value": "50",
+            "suffix": "+",
+            "isNumeric": true
+          },
+          {
+            "label": "Délai de livraison",
+            "value": "-45",
+            "suffix": "%",
+            "isNumeric": false
+          },
+          {
+            "label": "Satisfaction",
+            "value": "98",
+            "suffix": "%",
+            "isNumeric": true
+          }
+        ],
+        "timeline": [
+          {
+            "phase": "Audit supply chain",
+            "duration": "1 mois",
+            "status": "completed"
+          },
+          {
+            "phase": "Optimisation des processus",
+            "duration": "2 mois",
+            "status": "completed"
+          },
+          {
+            "phase": "Mise en œuvre",
+            "duration": "3 mois",
+            "status": "completed"
+          },
+          {
+            "phase": "Amélioration continue",
+            "duration": "En cours",
+            "status": "active"
+          }
+        ]
+      }
+    ],
+    "testimonialsSection": {
+      "badge": "Témoignages",
+      "title": "Ce que disent nos partenaires"
+    },
+    "testimonials": [
+      {
+        "quote": "L'expertise réglementaire d'AMS a accéléré notre entrée sur le marché de six mois. Leur compréhension des exigences locales est exceptionnelle.",
+        "author": "Dr Marie Laurent",
+        "role": "PDG, laboratoire pharmaceutique européen",
+        "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&h=100&fit=crop"
+      },
+      {
+        "quote": "La chaîne du froid déployée par AMS a dépassé nos attentes : aucune excursion de température en deux ans d'exploitation.",
+        "author": "Jean-Pierre Dubois",
+        "role": "Directeur supply chain, biotech",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop"
+      },
+      {
+        "quote": "Leur intelligence de marché et leur réseau de distribution nous ont donné un accès immédiat à des marchés sur lesquels nous peinions depuis des années.",
+        "author": "Sarah Mitchell",
+        "role": "VP International, dispositifs médicaux",
+        "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop"
+      }
+    ],
+    "cta": {
+      "title": "Prêt à devenir notre prochaine réussite ?",
+      "subtitle": "Rejoignez les laboratoires européens qui font confiance à AMS pour leur déploiement en Afrique.",
+      "button": "Lancer votre projet"
+    }
+  },
+  "news": {
+    "badge": "Dernières mises à jour",
+    "title": "Actualités et analyses",
+    "subtitle": "Restez informé des tendances du secteur et des annonces AMS",
+    "meta": {
+      "title": "Actualités | AMS - Secteur pharmaceutique africain",
+      "description": "Suivez les actualités, partenariats et analyses d’AMS et du marché pharmaceutique en Afrique."
+    },
+    "searchPlaceholder": "Rechercher un article...",
+    "featuredStories": "À la une",
+    "latestArticles": "Derniers articles",
+    "readSuffix": "de lecture",
+    "readArticle": "Lire l’article",
+    "readMore": "Lire la suite",
+    "noArticlesTitle": "Aucun article trouvé",
+    "noArticlesHint": "Modifiez votre recherche ou vos filtres.",
+    "loadMore": "Charger plus d’articles",
+    "categories": {
+      "all": "Toutes les actualités",
+      "industry": "Industrie",
+      "company": "Actualités AMS",
+      "partnerships": "Partenariats",
+      "health": "Santé en Afrique"
+    },
+    "items": [
+      {
+        "id": 1,
+        "title": "AMS étend son réseau de distribution au Sénégal et au Ghana",
+        "excerpt": "Africa Med Supply annonce l’extension de son réseau de distribution pharmaceutique à deux nouveaux marchés ouest-africains pour renforcer l’accès aux soins.",
+        "category": "company",
+        "date": "2024-12-15",
+        "readTime": "4 min de lecture",
+        "image": "https://images.unsplash.com/photo-1579165466741-7f35e4755660?w=600&h=400&fit=crop",
+        "featured": true
+      },
+      {
+        "id": 2,
+        "title": "Nouveau partenariat avec un fabricant européen de vaccins",
+        "excerpt": "Collaboration stratégique pour améliorer la distribution des vaccins et la logistique chaîne du froid en Afrique de l’Ouest.",
+        "category": "partnerships",
+        "date": "2024-11-28",
+        "readTime": "5 min de lecture",
+        "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&h=400&fit=crop",
+        "featured": false
+      },
+      {
+        "id": 3,
+        "title": "Réglementation : nouvelles directives pharmaceutiques en Côte d’Ivoire",
+        "excerpt": "Changements majeurs impactant l’accès au marché et l’enregistrement des produits sur le marché ivoirien.",
+        "category": "industry",
+        "date": "2024-11-15",
+        "readTime": "6 min de lecture",
+        "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
+        "featured": false
+      },
+      {
+        "id": 4,
+        "title": "AMS obtient la certification ISO 9001:2015 pour la qualité",
+        "excerpt": "Reconnaissance de notre engagement pour l’excellence en logistique et distribution pharmaceutiques.",
+        "category": "company",
+        "date": "2024-10-30",
+        "readTime": "3 min de lecture",
+        "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&h=400&fit=crop",
+        "featured": true
+      },
+      {
+        "id": 5,
+        "title": "L’avenir de la logistique sanitaire en Afrique subsaharienne",
+        "excerpt": "Analyse des tendances, défis et opportunités des chaînes d’approvisionnement pharmaceutiques pour 2025 et au-delà.",
+        "category": "health",
+        "date": "2024-10-20",
+        "readTime": "7 min de lecture",
+        "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&h=400&fit=crop",
+        "featured": false
+      },
+      {
+        "id": 6,
+        "title": "AMS organise un forum pharmaceutique international à Abidjan",
+        "excerpt": "Rassembler laboratoires européens et autorités sanitaires africaines pour échanger et collaborer.",
+        "category": "company",
+        "date": "2024-10-10",
+        "readTime": "4 min de lecture",
+        "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=400&fit=crop",
+        "featured": false
+      },
+      {
+        "id": 7,
+        "title": "Innovation chaîne du froid : capteurs IoT de température",
+        "excerpt": "Déploiement de capteurs en temps réel sur le réseau pour renforcer la sécurité des produits et la conformité.",
+        "category": "industry",
+        "date": "2024-09-25",
+        "readTime": "5 min de lecture",
+        "image": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=600&h=400&fit=crop",
+        "featured": false
+      },
+      {
+        "id": 8,
+        "title": "Partenariat avec le Ghana Health Service pour les dispositifs médicaux",
+        "excerpt": "Nouvel accord pour fournir des dispositifs essentiels aux établissements de santé publics au Ghana.",
+        "category": "partnerships",
+        "date": "2024-09-15",
+        "readTime": "4 min de lecture",
+        "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop",
+        "featured": false
+      },
+      {
+        "id": 9,
+        "title": "Marché pharmaceutique africain : analyse T3 2024",
+        "excerpt": "Analyse des tendances, secteurs porteurs et opportunités en Afrique de l’Ouest.",
+        "category": "health",
+        "date": "2024-09-05",
+        "readTime": "8 min de lecture",
+        "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&h=400&fit=crop",
+        "featured": false
+      }
+    ]
+  },
+  "equipment": {
+    "badge": "Notre infrastructure",
+    "title": "Équipements de pointe",
+    "subtitle": "Une infrastructure avancée au service de l’excellence pharmaceutique",
+    "meta": {
+      "title": "Équipement médical | AMS - Fournitures hospitalières",
+      "description": "Catalogue d’équipements médicaux, consommables et fournitures hospitalières pour les marchés ouest-africains."
+    },
+    "heroBadge": "Catalogue équipement premium",
+    "heroTitle": "Équipements et fournitures médicales",
+    "heroDescription": "Équipements et consommables de qualité, issus de fabricants certifiés pour les établissements de santé en Afrique.",
+    "searchPlaceholder": "Rechercher un équipement par nom ou catégorie...",
+    "specifications": "Spécifications",
+    "requestQuote": "Demander un devis",
+    "emptyTitle": "Aucun équipement trouvé",
+    "emptyHint": "Modifiez votre recherche ou vos filtres.",
+    "qualityBadge": "Assurance qualité",
+    "qualityTitle": "Normes de qualité certifiées",
+    "qualitySubtitle": "Nos équipements respectent les standards internationaux de qualité et de sécurité",
+    "qualityCards": [
+      {
+        "icon": "🏥",
+        "title": "Qualité médicale",
+        "desc": "Produits conformes aux spécifications médicales"
+      },
+      {
+        "icon": "✅",
+        "title": "Certifié ISO",
+        "desc": "Fabriqués selon les systèmes qualité ISO 13485"
+      },
+      {
+        "icon": "🌍",
+        "title": "Aligné OMS",
+        "desc": "Conformes aux attentes OMS pour l’équipement essentiel"
+      }
+    ],
+    "categories": {
+      "all": "Tout l’équipement",
+      "consumables": "Consommables médicaux",
+      "hospital": "Équipement hospitalier",
+      "diagnostic": "Outils de diagnostic",
+      "protective": "Équipements de protection"
+    },
+    "badges": {
+      "bestSeller": "Best-seller",
+      "new": "Nouveau",
+      "premium": "Premium",
+      "featured": "À la une"
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "Gants chirurgicaux stériles",
+        "category": "consumables",
+        "type": "Consommables médicaux",
+        "description": "Gants chirurgicaux sans latex, sans poudre, qualité médicale.",
+        "specifications": [
+          "Taille : S–XL",
+          "Stérile : Oui",
+          "Matière : Nitrile",
+          "Conditionnement : 50 paires"
+        ],
+        "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=300&fit=crop",
+        "badge": "bestSeller"
+      },
+      {
+        "id": 2,
+        "name": "Seringues jetables",
+        "category": "consumables",
+        "type": "Consommables médicaux",
+        "description": "Seringues stériles à usage unique, embout Luer lock, plusieurs tailles.",
+        "specifications": [
+          "Taille : 2–20 ml",
+          "Stérile : Oui",
+          "Matière : PP médical",
+          "Conditionnement : 100 unités"
+        ],
+        "image": "https://images.unsplash.com/photo-1579165466741-7f35e4755660?w=400&h=300&fit=crop",
+        "badge": null
+      },
+      {
+        "id": 3,
+        "name": "Tests rapides",
+        "category": "diagnostic",
+        "type": "Outils de diagnostic",
+        "description": "Tests de diagnostic rapide professionnels pour le paludisme et autres maladies tropicales.",
+        "specifications": [
+          "Type : Paludisme",
+          "Durée : 15 min",
+          "Précision : 99 %",
+          "Conditionnement : 25 tests"
+        ],
+        "image": "https://images.unsplash.com/photo-1581595219315-a187dd40c322?w=400&h=300&fit=crop",
+        "badge": "new"
+      },
+      {
+        "id": 4,
+        "name": "Pompes à perfusion",
+        "category": "hospital",
+        "type": "Équipement hospitalier",
+        "description": "Pompe à perfusion volumétrique avec débits programmables.",
+        "specifications": [
+          "Débit : 0,1–1200 ml/h",
+          "Batterie : 8 h",
+          "Alarmes : Multiples",
+          "Écran : LCD"
+        ],
+        "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400&h=300&fit=crop",
+        "badge": null
+      },
+      {
+        "id": 5,
+        "name": "Moniteurs patients",
+        "category": "hospital",
+        "type": "Équipement hospitalier",
+        "description": "Surveillance multiparamètres des signes vitaux.",
+        "specifications": [
+          "Paramètres : 7",
+          "Écran : 15\"",
+          "Batterie : 4 h",
+          "Connectivité : Wi-Fi"
+        ],
+        "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=300&fit=crop",
+        "badge": "premium"
+      },
+      {
+        "id": 6,
+        "name": "Masques chirurgicaux",
+        "category": "protective",
+        "type": "Équipements de protection",
+        "description": "Masques chirurgicaux 3 plis, haute filtration bactérienne.",
+        "specifications": [
+          "BFE : 99 %",
+          "Couches : 3",
+          "Type : IIR",
+          "Conditionnement : 50 unités"
+        ],
+        "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=400&h=300&fit=crop",
+        "badge": null
+      },
+      {
+        "id": 7,
+        "name": "Ventilateurs portables",
+        "category": "hospital",
+        "type": "Équipement hospitalier",
+        "description": "Ventilateur compact niveau USI pour urgence et transport.",
+        "specifications": [
+          "Modes : 6",
+          "Poids : 3,5 kg",
+          "Batterie : 6 h",
+          "Écran : Tactile"
+        ],
+        "image": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=400&h=300&fit=crop",
+        "badge": "featured"
+      },
+      {
+        "id": 8,
+        "name": "Tubes de prélèvement sanguin",
+        "category": "diagnostic",
+        "type": "Outils de diagnostic",
+        "description": "Tubes sous vide avec additifs pour analyses de laboratoire.",
+        "specifications": [
+          "Volume : 2–10 ml",
+          "Additifs : Multiples",
+          "Stérile : Oui",
+          "Codage couleur"
+        ],
+        "image": "https://images.unsplash.com/photo-1579165466741-7f35e4755660?w=400&h=300&fit=crop",
+        "badge": null
+      },
+      {
+        "id": 9,
+        "name": "Défibrillateurs",
+        "category": "hospital",
+        "type": "Équipement hospitalier",
+        "description": "Défibrillateur externe automatisé avec retour temps réel sur la RCP.",
+        "specifications": [
+          "Type : DEA",
+          "Choc : Biphasique",
+          "Batterie : 5 ans",
+          "Poids : 2,4 kg"
+        ],
+        "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400&h=300&fit=crop",
+        "badge": null
+      }
+    ]
+  }
+}
