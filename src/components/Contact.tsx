@@ -115,8 +115,8 @@ _Message envoyé via Africa Connect Plus_`
         </svg>
       ),
       label: 'Téléphone',
-      value: '+225 07 00 00 00 00',
-      link: 'tel:+2250700000000'
+      value: 'DG: +353 87 628 7124',
+      link: 'tel:+353876287124'
     },
     {
       icon: (

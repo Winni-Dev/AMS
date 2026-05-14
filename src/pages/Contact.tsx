@@ -13,13 +13,44 @@ const Contact = () => {
     email: '',
     message: ''
   })
-  const [isSubmitted, setIsSubmitted] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitSuccess, setSubmitSuccess] = useState(false)
+  const [submitError, setSubmitError] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    // Handle form submission
-    setIsSubmitted(true)
-    setTimeout(() => setIsSubmitted(false), 3000)
+    setIsSubmitting(true)
+    setSubmitSuccess(false)
+    setSubmitError(false)
+
+    try {
+      const response = await fetch('https://formspree.io/f/mnjwydlq', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json'
+        },
+        body: JSON.stringify(formData)
+      })
+
+      if (response.ok) {
+        setSubmitSuccess(true)
+        setFormData({
+          name: '',
+          company: '',
+          country: '',
+          email: '',
+          message: ''
+        })
+      } else {
+        setSubmitError(true)
+      }
+    } catch (error) {
+      console.error('Form submission error:', error)
+      setSubmitError(true)
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -99,9 +130,14 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="mb-1 font-semibold text-deep-blue">{t('contact.info.phone')}</h3>
-                      <a href="tel:+22500000000" className="transition-colors text-premium-gray hover:text-health-green">
-                        +225 XX XX XX XX XX
-                      </a>
+                      <div className="space-y-1">
+                        <a href="tel:+353876287124" className="block transition-colors text-premium-gray hover:text-health-green">
+                          DG: +353 87 628 7124
+                        </a>
+                        <a href="tel:+447874083280" className="block transition-colors text-premium-gray hover:text-health-green">
+                          PDG: +447 874 083 280
+                        </a>
+                      </div>
                     </div>
                   </div>
 
@@ -143,7 +179,7 @@ const Contact = () => {
                 <h2 className="mb-2 text-2xl font-bold font-sora text-deep-blue">{t('contact.form.submit')}</h2>
                 <p className="mb-8 text-premium-gray">{t('contact.formIntro')}</p>
 
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form action="https://formspree.io/f/mnjwydlq" method="POST" onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid gap-6 md:grid-cols-2">
                     <div>
                       <label className="block mb-2 text-sm font-medium text-deep-blue">{t('contact.form.name')} *</label>
@@ -221,11 +257,12 @@ const Contact = () => {
                     type="submit"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className="flex items-center justify-center w-full px-8 py-4 space-x-3 text-lg font-semibold text-white transition-all duration-300 shadow-lg group bg-health-green hover:bg-green-600 rounded-2xl hover:shadow-xl"
+                    disabled={isSubmitting}
+                    className="flex items-center justify-center w-full px-8 py-4 space-x-3 text-lg font-semibold text-white transition-all duration-300 shadow-lg group bg-health-green hover:bg-green-600 rounded-2xl hover:shadow-xl disabled:opacity-60 disabled:cursor-not-allowed"
                   >
-                    {isSubmitted ? (
+                    {isSubmitting ? (
                       <>
-                        <span>{t('contact.form.success')}</span>
+                        <span>{t('contact.form.sending')}</span>
                         <HiPaperAirplane className="text-2xl" />
                       </>
                     ) : (
@@ -235,6 +272,11 @@ const Contact = () => {
                       </>
                     )}
                   </motion.button>
+                  {(submitSuccess || submitError) && (
+                    <div className={`mt-4 rounded-3xl border px-4 py-4 text-sm ${submitSuccess ? 'border-health-green bg-health-green/10 text-health-green' : 'border-red-300 bg-red-100 text-red-700'}`}>
+                      {submitSuccess ? t('contact.form.confirmation') : t('contact.form.error')}
+                    </div>
+                  )}
                 </form>
               </div>
             </motion.div>

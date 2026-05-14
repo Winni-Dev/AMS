@@ -125,7 +125,7 @@
     "address": "Plateau, Abidjan",
     "region": "West Africa",
     "email": "contact@ams-africa.com",
-    "phone": "+225 XX XX XX XX",
+    "phone": "DG: +353 87 628 7124",
     "rightsReserved": "All rights reserved."
   },
   "about": {
@@ -366,6 +366,8 @@
       "submit": "Send Message",
       "sending": "Sending...",
       "success": "Message sent successfully! We'll get back to you soon.",
+      "confirmation": "Your information has been sent successfully.",
+      "error": "An error occurred while sending your message. Please try again.",
       "selectCountry": "Select country",
       "placeholders": {
         "name": "John Doe",

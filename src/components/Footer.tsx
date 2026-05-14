@@ -320,16 +320,24 @@ const Footer = () => {
                   contact@ams-africa.com
                 </a>
               </li>
-              <li className="flex items-center space-x-3 group">
+              <li className="flex items-start space-x-3 group">
                 <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 transition-colors rounded-lg bg-health-green/10 group-hover:bg-health-green/20">
                   <HiPhone className="text-sm text-health-green" />
                 </div>
-                <a 
-                  href="tel:+22500000000" 
-                  className="text-sm text-gray-400 transition-colors hover:text-health-green"
-                >
-                  +225 XX XX XX XX XX
-                </a>
+                <div className="space-y-1">
+                  <a
+                    href="tel:+353876287124"
+                    className="block text-sm text-gray-400 transition-colors hover:text-health-green"
+                  >
+                    DG: +353 87 628 7124
+                  </a>
+                  <a
+                    href="tel:+447874083280"
+                    className="block text-sm text-gray-400 transition-colors hover:text-health-green"
+                  >
+                    PDG: +447 874 083 280
+                  </a>
+                </div>
               </li>
             </ul>
           </motion.div>

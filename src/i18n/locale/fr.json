@@ -125,7 +125,7 @@
     "address": "Plateau, Abidjan",
     "region": "Afrique de l'Ouest",
     "email": "contact@ams-africa.com",
-    "phone": "+225 XX XX XX XX",
+    "phone": "DG: +353 87 628 7124",
     "rightsReserved": "Tous droits réservés."
   },
   "about": {
@@ -168,10 +168,10 @@
     },
     "leadership": {
       "badge": "Direction",
-      "title": "Le mot du fondateur"
+      "title": "Le mot du Fondateur"
     },
     "md": {
-      "title": "Le mot du directeur général"
+      "title": "Le mot du Directeur Général"
     },
     "purpose": {
       "badge": "Notre raison d'être",
@@ -179,9 +179,9 @@
     },
     "people": {
       "pdgRole": "PDG & Fondateur",
-      "dgRole": "Directeur général",
-      "pdgImageAlt": "Hervé Bah Tiehi - PDG & fondateur, AMS",
-      "dgImageAlt": "KATO REMY GBESSIA - Directeur général, AMS"
+      "dgRole": "Directeur Général",
+      "pdgImageAlt": "Hervé Bah Tiehi - PDG & Fondateur, AMS",
+      "dgImageAlt": "KATO REMY GBESSIA - Directeur Général, AMS"
     },
     "founder": {
       "sections": [
@@ -366,6 +366,8 @@
       "submit": "Envoyer le Message",
       "sending": "Envoi en cours...",
       "success": "Message envoyé avec succès ! Nous vous répondrons bientôt.",
+      "confirmation": "Vos informations ont bien été envoyées.",
+      "error": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
       "selectCountry": "Sélectionnez un pays",
       "placeholders": {
         "name": "Jean Dupont",
