@@ -161,7 +161,7 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import { HiMail, HiPhone, HiLocationMarker } from 'react-icons/hi'
+import { HiMail, HiPhone, HiLocationMarker, HiGlobe } from 'react-icons/hi'
 import { FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 const Footer = () => {
@@ -212,22 +212,24 @@ const Footer = () => {
           viewport={{ once: true }}
           className="grid gap-10 md:gap-12 md:grid-cols-2 lg:grid-cols-4"
         >
-          {/* Brand - Logo uniquement, pas de texte */}
+          {/* Brand - Logo uniquement, pas de texte (cercle blanc comme la nav) */}
           <motion.div variants={itemVariants}>
             <Link to="/" className="inline-block mb-5 transition-transform duration-300 hover:scale-105">
-              <img 
-                src="/favicon.png" 
-                alt="AMS Africa Med Supply" 
-                className="object-contain w-14 h-14 md:w-16 md:h-16"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement
-                  target.style.display = 'none'
-                  const fallback = document.createElement('div')
-                  fallback.className = 'flex items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-2xl bg-gradient-to-br from-health-green to-blue-500'
-                  fallback.innerHTML = '<span class="text-xl md:text-2xl font-bold text-white font-sora">AMS</span>'
-                  target.parentElement?.appendChild(fallback)
-                }}
-              />
+              <div className="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-lg md:w-14 md:h-14 shadow-black/20 ring-2 ring-white/20">
+                <img 
+                  src="/favicon.png" 
+                  alt="AMS Africa Med Supply" 
+                  className="object-contain w-10 h-10 md:w-12 md:h-12"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement
+                    target.style.display = 'none'
+                    const fallback = document.createElement('span')
+                    fallback.className = 'text-lg font-bold md:text-xl font-sora text-deep-blue'
+                    fallback.textContent = 'AMS'
+                    target.parentElement?.appendChild(fallback)
+                  }}
+                />
+              </div>
             </Link>
             <p className="max-w-xs mb-5 text-sm leading-relaxed text-gray-400">
               {t('footer.slogan')}
@@ -317,7 +319,23 @@ const Footer = () => {
                   href="mailto:contact@ams-africa.com" 
                   className="text-sm text-gray-400 transition-colors hover:text-health-green"
                 >
+                  Info@amsivoire.com
+                 <br />
                   contact@ams-africa.com
+                </a>
+              </li>
+              {/* Website */}
+              <li className="flex items-center space-x-3 group">
+                <div className="flex items-center justify-center w-8 h-8 transition-colors rounded-lg bg-health-green/10 group-hover:bg-health-green/20">
+                  <HiGlobe className="text-sm text-health-green" />
+                </div>
+                <a
+                  href="https://www.amsivoire.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-sm text-gray-400 transition-colors hover:text-health-green"
+                >
+                  www.amsivoire.com
                 </a>
               </li>
               <li className="flex items-start space-x-3 group">
@@ -325,7 +343,14 @@ const Footer = () => {
                   <HiPhone className="text-sm text-health-green" />
                 </div>
                 <div className="space-y-1">
+                  
                   <a
+                    href="tel:+353876287124"
+                    className="block text-sm text-gray-400 transition-colors hover:text-health-green"
+                  >
+                    MM: +33 7 53 31 81 36
+                  </a>
+                   <a
                     href="tel:+353876287124"
                     className="block text-sm text-gray-400 transition-colors hover:text-health-green"
                   >

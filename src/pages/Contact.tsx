@@ -119,6 +119,9 @@ const Contact = () => {
                     <div>
                       <h3 className="mb-1 font-semibold text-deep-blue">{t('contact.info.email')}</h3>
                       <a href="mailto:contact@ams-africa.com" className="transition-colors text-premium-gray hover:text-health-green">
+                       Info@amsivoire.com <br />
+                      </a>
+                      <a href="mailto:contact@ams-africa.com" className="transition-colors text-premium-gray hover:text-health-green">
                         contact@ams-africa.com
                       </a>
                     </div>
@@ -131,6 +134,9 @@ const Contact = () => {
                     <div>
                       <h3 className="mb-1 font-semibold text-deep-blue">{t('contact.info.phone')}</h3>
                       <div className="space-y-1">
+                        <a href="tel:+353876287124" className="block transition-colors text-premium-gray hover:text-health-green">
+                          MM: +33 7 53 31 81 36
+                        </a>
                         <a href="tel:+353876287124" className="block transition-colors text-premium-gray hover:text-health-green">
                           DG: +353 87 628 7124
                         </a>
@@ -147,7 +153,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="mb-1 font-semibold text-deep-blue">{t('contact.info.hours')}</h3>
-                      <p className="text-premium-gray whitespace-pre-line">
+                      <p className="whitespace-pre-line text-premium-gray">
                         {t('contact.info.hoursDetail')}
                       </p>
                     </div>

@@ -135,7 +135,7 @@ _Message envoyé via Africa Connect Plus_`
         </svg>
       ),
       label: 'Horaires',
-      value: 'Lun - Sam · 8h - 20h',
+      value: 'Lun - Sam · 9h - 16h',
       link: '#'
     }
   ]

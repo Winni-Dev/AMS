@@ -504,6 +504,16 @@ const About = () => {
                       ))}
                     </div>
                   ))}
+                  {/* Signature PDG (initiales) */}
+                  <div className="mt-6 lg:flex lg:justify-end">
+                    <div className="flex items-center space-x-3">
+                      <div className="flex items-center justify-center w-10 h-10 text-sm font-bold text-white rounded-full bg-deep-blue">HBT</div>
+                      <div className="text-sm text-premium-gray">
+                        <div className="font-semibold text-deep-blue">Hervé Bah Tiehi</div>
+                        <div className="text-xs text-health-green">{t('about.people.pdgRole')}</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </motion.div>
@@ -583,6 +593,16 @@ const About = () => {
                       ))}
                     </div>
                   ))}
+                  {/* Signature DG (initiales) */}
+                  <div className="mt-6 lg:flex lg:justify-end">
+                    <div className="flex items-center space-x-3">
+                      <div className="flex items-center justify-center w-10 h-10 text-sm font-bold text-white rounded-full bg-deep-blue">KRG</div>
+                      <div className="text-sm text-premium-gray">
+                        <div className="font-semibold text-deep-blue">KATO REMY GBESSIA</div>
+                        <div className="text-xs text-health-green">{t('about.people.dgRole')}</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </motion.div>
